@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/textUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="#37ACD8"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/upload" />
+    <ImageButton
+        android:id="@+id/btnCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@android:drawable/ic_menu_camera"
+        android:contentDescription="@string/upload" />
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/upload" />
+    <View
+        android:layout_height="1dip"
+        android:background="#CCCCCC"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/textDownload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="#37ACD8"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/download" />
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/download" />
+    <View
+        android:layout_height="1dip"
+        android:background="#CCCCCC"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
